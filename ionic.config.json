@@ -1,0 +1,7 @@
+{
+  "name": "envia-mensagens-whatsapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
