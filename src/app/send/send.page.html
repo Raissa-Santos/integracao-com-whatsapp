@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <ion-card>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Número do Whatsapp</ion-label>
+          <ion-input type="text" [(ngModel)]="numero"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Texto</ion-label>
+          <ion-input type="text" [(ngModel)]="texto"></ion-input>
+        </ion-item>
+        
+        <ion-button expand="full" (click)="enviar()">Enviar</ion-button>
+        
+      </ion-card-content>      
+    </ion-card>
+  </div>
+</ion-content>
